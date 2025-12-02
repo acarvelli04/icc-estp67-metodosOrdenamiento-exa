@@ -7,11 +7,11 @@ public class App {
         System.out.println("====Configurar studente.env====");
 
         for (int i = 0; i < args.length; i++) {
-            System.out.println();
+            System.out.println(brand[i]);
         }
 
-        controllers.BrandController.sortSelectionDesc(Brand[] brand);
-        controllers.BrandController.binarySearchByValidYears(honda,8,false);
+        controllers.BrandController.sortSelectionDesc(brand[]);
+        controllers.BrandController.binarySearchByValidYears(brands,8,false);
         
         for (int i = 0; i < args.length; i++) {
             System.out.println();
